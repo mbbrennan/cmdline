@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<br/>
+<br/>
+@{
+var greeting = "Welcome to our site!";
+var weekDay = DateTime.Now;
+var greetingMessage = greeting + " Here in Calgary it is: " + weekDay;
+}
+<p>@greetingMessage</p>
+<br/>
+<br/>
+Hello, my name is Maureen B Brennan and I live in Calgary, Alberta in the country of Canada.
